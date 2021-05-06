@@ -1,12 +1,21 @@
+:root {
+    --black: #000;
+}
 
-
-
-
+/* Navbar */
+.svg {
+    height: 2rem;
+    width: 2rem;
+}
 
 /* Hero Section */
-
-header img {
+.heroSection img {
     height: 100%;
     width:100%;
 }
 
+/* Main */
+
+/* main {
+    background-color: var(--black);
+} */
