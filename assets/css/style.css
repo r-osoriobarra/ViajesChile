@@ -2,6 +2,14 @@
     --black: #000;
 }
 
+/* Utilidadades */
+
+.hrStyle {
+    background-color: #17a2b8;
+    height: 0.1rem;
+    margin: 2.5rem 0;
+}
+
 /* Navbar */
 .svg {
     height: 2rem;
@@ -16,6 +24,6 @@
 
 /* Main */
 
-/* main {
+.bg-black {
     background-color: var(--black);
-} */
+}
