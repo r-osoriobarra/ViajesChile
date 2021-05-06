@@ -1,8 +1,14 @@
 :root {
     --black: #000;
+    --font: 'Fira Sans', sans-serif;
+    --fontLogo: 'Lobster Two', cursive;
 }
 
-/* Utilidadades */
+/* Globales */
+
+body {
+    font-family: var(--font);
+}
 
 .hrStyle {
     background-color: #17a2b8;
@@ -10,7 +16,12 @@
     margin: 2.5rem 0;
 }
 
+.logoFont {
+    font-family: var(--fontLogo);
+}
+
 /* Navbar */
+
 .svg {
     height: 2rem;
     width: 2rem;
