@@ -27,3 +27,10 @@
 .bg-black {
     background-color: var(--black);
 }
+
+/* Sección destacados */
+
+.card-img-top {
+    height: 10rem;
+    width: 100%;
+}
