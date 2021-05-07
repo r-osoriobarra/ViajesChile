@@ -1,4 +1,4 @@
-// $(document).ready(function(){
+$(document).ready(function(){
 
     // smooth scroll links navbar
     $(".smoothScroll").click(function(event){
@@ -16,4 +16,4 @@
 
     //tooltips sobre iconos RRSS
     $('[data-toggle="tooltip"]').tooltip();
-// });
+});
