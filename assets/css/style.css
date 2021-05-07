@@ -1,5 +1,6 @@
 :root {
     --black: #000;
+    --infoColor: #17a2b8;
     --font: 'Fira Sans', sans-serif;
     --fontLogo: 'Lobster Two', cursive;
 }
@@ -11,7 +12,7 @@ body {
 }
 
 .hrStyle {
-    background-color: #17a2b8;
+    background-color: var(--infoColor) ;
     height: 0.1rem;
     margin: 2.5rem 0;
 }
@@ -56,4 +57,8 @@ body {
 
 .footer-icon {
     color: white;
+}
+
+.tooltip-inner {
+    background-color: var(--infoColor);
 }

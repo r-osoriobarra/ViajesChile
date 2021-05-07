@@ -20,7 +20,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top container-fluid py-0">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="./assets/img/viajes.svg" class="svg"><span class="logoFont"> Viajes Chile</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,20 +32,20 @@
                     <a class="nav-link" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">Quiénes Somos</a>
+                    <a class="nav-link smoothScroll" href="#about">Quiénes Somos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#featuredSection">Destacados</a>
+                    <a class="nav-link smoothScroll" href="#featuredSection">Destacados</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contacto</a>
+                    <a class="nav-link smoothScroll" href="#contact">Contacto</a>
                 </li>   
                 </ul>
             </div>
         </div>
     </nav>
 
-    <header class="heroSection">
+    <header class="heroSection pt-4">
         
         <!-- Carousel -->
         <div id="travelsChile" class="carousel slide" data-ride="carousel">
@@ -75,7 +75,7 @@
     <main class="text-light text-center bg-black container-fluid">
         
         <!-- Sección ¿Quienes somos? -->
-        <section id="about" class="container py-5">
+        <section id="about" class="container py-5 d-none d-md-block">
             <h2>¿Quiénes Somos?</h2>
             <hr class="hrStyle">
             <div class="row text-left">
@@ -111,7 +111,7 @@
             <h2>Destacados</h2>
             <hr class="hrStyle">
             <div class="row">
-                <div class="col">
+                <div class="col-md-3 pb-4">
                     <div class="card">
                         <img src="./assets/img/card1.jpg" class="card-img-top" alt="landscape1">
                         <div class="card-body bg-info text-light text-left">
@@ -120,7 +120,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3 pb-4">
                     <div class="card">
                         <img src="./assets/img/card2.jpg" class="card-img-top" alt="landscape2">
                         <div class="card-body bg-info text-light text-left">
@@ -129,7 +129,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3 pb-4">
                     <div class="card">
                         <img src="./assets/img/card3.jpg" class="card-img-top" alt="landscape3">
                         <div class="card-body bg-info text-light text-left">
@@ -138,7 +138,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3 pb-4">
                     <div class="card">
                         <img src="./assets/img/card4.jpg" class="card-img-top" alt="landscape4">
                         <div class="card-body bg-info text-light text-left">
@@ -164,19 +164,22 @@
                 <h4 class="my-0 logoFont">Viajes Chile</h4>
             </div>
             <div class="col footerStyle">
-                <a href="https://github.com/r-osoriobarra" target="_blank"><i class="fab fa-github-square fa-2x footer-icon"></i></a>
-                <a href="https://www.linkedin.com/in/rodrigo-osorio-barra/" target="_blank"><i class="fab fa-linkedin fa-2x footer-icon px-3"></i></a>
-                <a href="https://twitter.com/rokolive" target="_blank"><i class="fab fa-twitter-square fa-2x footer-icon pr-3"></i></a>
-                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x footer-icon"></i></a>                            
+                <a href="https://github.com/r-osoriobarra" target="_blank" data-toggle="tooltip" data-placement="top" title="GitHub"><i class="fab fa-github-square fa-2x footer-icon"></i></a>
+                <a href="https://www.linkedin.com/in/rodrigo-osorio-barra/" target="_blank" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fab fa-linkedin fa-2x footer-icon px-3"></i></a>
+                <a href="https://twitter.com/rokolive" target="_blank" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fab fa-twitter-square fa-2x footer-icon pr-3"></i></a>
+                <a href="https://www.facebook.com/" target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fab fa-facebook-square fa-2x footer-icon"></i></a>                            
             </div>
         </div>
     </footer>
 
-    <!-- jquery 3.5.1 -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- jquery 3.6.0 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!-- Popper JS 1.16.1 -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <!-- My script -->
+    <script src="./assets/js/script.js"></script>
+
 </body>
 </html>
