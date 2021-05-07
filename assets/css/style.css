@@ -21,6 +21,10 @@ body {
     font-family: var(--fontLogo);
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Navbar */
 
 .svg {
